@@ -27,7 +27,30 @@ export class NavbarComponent implements OnInit {
 
     for(var item = 0; item < this.listTitles.length; item++){
         if(this.listTitles[item].path === titlee){
-            return this.listTitles[item].title;
+          switch (titlee) {
+            case "/user-profile":
+              titlee = "PERFIL DE USUARIO"
+              break;
+            case "/user-profile":
+              titlee = "PERFIL DE USUARIO"
+              break;
+            case "/user-profile":
+              titlee = "PERFIL DE USUARIO"
+              break;
+            case "/user-profile":
+                titlee = "PERFIL DE USUARIO"
+                break;
+            case "/user-profile":
+              titlee = "PERFIL DE USUARIO"
+              break;
+            case "/user-profile":
+                titlee = "PERFIL DE USUARIO"
+                break;
+            default:
+              break;
+          }
+          return titlee;
+            // return this.listTitles[item].title;
         }
     }
     return 'Dashboard';
