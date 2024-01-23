@@ -28,12 +28,6 @@
         <!-- Navbar items -->
         <ul class="navbar-nav ml-auto text-dark">
           <li class="nav-item">
-            <a class="nav-link nav-link-icon" routerLinkActive="active" [routerLink]="['/dashboard']">
-              <i class="ni ni-planet"></i>
-              <span class="nav-link-inner--text ">Dashboard</span>
-            </a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link nav-link-icon" routerLinkActive="active" [routerLink]="['/register']">
               <i class="ni ni-circle-08"></i>
               <span class="nav-link-inner--text">Register</span>
@@ -43,12 +37,6 @@
             <a class="nav-link nav-link-icon" routerLinkActive="active" [routerLink]="['/login']">
               <i class="ni ni-key-25"></i>
               <span class="nav-link-inner--text">Login</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-icon" routerLinkActive="active" [routerLink]="['/user-profile']">
-              <i class="ni ni-single-02"></i>
-              <span class="nav-link-inner--text">Profile</span>
             </a>
           </li>
         </ul>
@@ -62,7 +50,7 @@
     <div class="row align-items-center justify-content-xl-between">
       <div class="col-xl-6">
         <div class="copyright text-center text-xl-left text-muted">
-          &copy; {{ test | date: "yyyy" }} <a href="https://www.creative-tim.com?ref=ada-footer-auth-layout" class="font-weight-bold ml-1" target="_blank">GYMBRO Team</a>
+          &copy; {{ test | date: "yyyy" }} <span class="font-weight-bold ml-1" >GYMBRO Team</span>
         </div>
       </div>
       <div class="col-xl-6">
