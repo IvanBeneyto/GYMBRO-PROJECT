@@ -31,11 +31,11 @@ export class NavbarComponent implements OnInit {
             case "/user-profile":
               titlee = "PERFIL DE USUARIO"
               break;
-            case "/user-profile":
-              titlee = "PERFIL DE USUARIO"
+            case "/dashboard":
+              titlee = "INICIO"
               break;
-            case "/user-profile":
-              titlee = "PERFIL DE USUARIO"
+            case "/icons":
+              titlee = "ALIMENTACIÓN"
               break;
             case "/user-profile":
                 titlee = "PERFIL DE USUARIO"
