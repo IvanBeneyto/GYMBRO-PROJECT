@@ -34,7 +34,7 @@ export class NavbarComponent implements OnInit {
             case "/dashboard":
               titlee = "INICIO"
               break;
-            case "/icons":
+            case "/alimentacion":
               titlee = "ALIMENTACIÓN"
               break;
             case "/user-profile":
