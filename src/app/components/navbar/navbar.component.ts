@@ -28,7 +28,7 @@ export class NavbarComponent implements OnInit {
     for(var item = 0; item < this.listTitles.length; item++){
         if(this.listTitles[item].path === titlee){
           switch (titlee) {
-            case "/user-profile":
+            case "/perfil-usuario":
               titlee = "PERFIL DE USUARIO"
               break;
             case "/dashboard":
@@ -37,14 +37,14 @@ export class NavbarComponent implements OnInit {
             case "/alimentacion":
               titlee = "ALIMENTACIÓN"
               break;
-            case "/user-profile":
-                titlee = "PERFIL DE USUARIO"
-                break;
-            case "/user-profile":
-              titlee = "PERFIL DE USUARIO"
+            case "/tienda":
+              titlee = "TIENDA"
               break;
-            case "/user-profile":
-                titlee = "PERFIL DE USUARIO"
+            case "/maps":
+              titlee = "MAPS E INFORMACIÓN"
+              break;
+            case "/rutinas":
+                titlee = "RUTINAS"
                 break;
             default:
               break;

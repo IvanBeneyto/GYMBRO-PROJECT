@@ -10,8 +10,9 @@ import { DashboardComponent } from '../../pages/dashboard/dashboard.component';
 import { AlimentacionComponent } from '../../pages/alimentacion/alimentacion.component';
 import { MapsComponent } from '../../pages/maps/maps.component';
 import { PerfilUsuarioComponent } from '../../pages/perfil-usuario/perfil-usuario.component';
-import { TablesComponent } from '../../pages/tables/tables.component';
+import { RutinasComponent } from '../../pages/rutinas/rutinas.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TiendaComponent } from 'src/app/pages/tienda/tienda.component';
 // import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
@@ -26,8 +27,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   declarations: [
     DashboardComponent,
     PerfilUsuarioComponent,
-    TablesComponent,
+    RutinasComponent,
     AlimentacionComponent,
+    TiendaComponent,
     MapsComponent
   ]
 })
