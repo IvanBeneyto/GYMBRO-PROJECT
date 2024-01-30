@@ -13,6 +13,8 @@ import { PerfilUsuarioComponent } from '../../pages/perfil-usuario/perfil-usuari
 import { RutinasComponent } from '../../pages/rutinas/rutinas.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TiendaComponent } from 'src/app/pages/tienda/tienda.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
 // import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
@@ -22,7 +24,9 @@ import { TiendaComponent } from 'src/app/pages/tienda/tienda.component';
     FormsModule,
     HttpClientModule,
     NgbModule,
-    ClipboardModule
+    ClipboardModule,
+    MatTableModule,
+    MatPaginatorModule,
   ],
   declarations: [
     DashboardComponent,
