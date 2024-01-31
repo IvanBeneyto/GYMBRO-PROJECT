@@ -8,13 +8,14 @@ declare interface RouteInfo {
     class: string;
 }
 export const ROUTES: RouteInfo[] = [
-    { path: '/dashboard', title: 'Inicio',  icon: 'ni-tv-2 text-primary', class: '' },
-    { path: '/alimentacion', title: 'Alimentación',  icon:'ni-planet text-blue', class: '' },
-    { path: '/maps', title: 'Mapa',  icon:'ni-pin-3 text-orange', class: '' },
-    { path: '/rutinas', title: 'Rutinas',  icon:'ni-bullet-list-67 text-red', class: '' },
-    { path: '/tienda', title: 'Tienda',  icon:'ni-bullet-list-67 text-red', class: '' },
-    { path: '/perfil-usuario', title: 'Perfil de usuario',  icon:'ni-single-02 text-yellow', class: '' },
-    { path: '/login', title: 'Accede a tu perfil',  icon:'ni-key-25 text-info', class: '' },
+    { path: '/dashboard', title: 'Inicio',  icon: 'ni-tv-2 text-black', class: '' },
+    { path: '/perfil-usuario', title: 'Perfil de usuario',  icon:'ni-single-02 text-black', class: '' },
+    { path: '/alimentacion', title: 'Alimentación',  icon:'ni-satisfied text-black', class: '' },
+    { path: '/maps', title: 'Mapa',  icon:'ni-pin-3 text-black', class: '' },
+    { path: '/rutinas', title: 'Rutinas',  icon:'ni-calendar-grid-58 text-black', class: '' },
+    { path: '/tienda', title: 'Tienda',  icon:'ni-shop text-black', class: '' },
+    
+    { path: '/login', title: 'Accede a tu perfil',  icon:'ni-lock-circle-open text-black', class: '' },
     // { path: '/register', title: 'Register',  icon:'ni-circle-08 text-pink', class: '' }
 ];
 
