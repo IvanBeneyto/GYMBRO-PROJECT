@@ -31,24 +31,27 @@ export class DashboardComponent implements OnInit {
     this.data = this.datasets[0];
 
 
-    var chartOrders = document.getElementById('chart-orders');
+    // var chartOrders = document.getElementById('chart-orders');
 
-    parseOptions(Chart, chartOptions());
+    // parseOptions(Chart, chartOptions());
+    // console.log(chartOrders);
+    
+    // if (chartOrders != null){
+    //   var ordersChart = new Chart(chartOrders, {
+    //     type: 'bar',
+    //     options: chartExample2.options,
+    //     data: chartExample2.data
+    //   });
+    // }
+    
 
+  //   var chartSales = document.getElementById('chart-sales');
 
-    var ordersChart = new Chart(chartOrders, {
-      type: 'bar',
-      options: chartExample2.options,
-      data: chartExample2.data
-    });
-
-    var chartSales = document.getElementById('chart-sales');
-
-    this.salesChart = new Chart(chartSales, {
-			type: 'line',
-			options: chartExample1.options,
-			data: chartExample1.data
-		});
+  //   this.salesChart = new Chart(chartSales, {
+	// 		type: 'line',
+	// 		options: chartExample1.options,
+	// 		data: chartExample1.data
+	// 	});
   }
 
 
