@@ -15,6 +15,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TiendaComponent } from 'src/app/pages/tienda/tienda.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { RutineTableComponent } from 'src/app/pages/rutinas/components/rutine-table.component';
 // import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
@@ -34,7 +35,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     RutinasComponent,
     AlimentacionComponent,
     TiendaComponent,
-    MapsComponent
+    MapsComponent,
+    RutineTableComponent
   ]
 })
 
