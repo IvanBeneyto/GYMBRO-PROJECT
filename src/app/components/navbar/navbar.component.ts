@@ -38,7 +38,7 @@ export class NavbarComponent implements OnInit {
               titlee = "ALIMENTACIÓN"
               break;
             case "/tienda":
-              titlee = "TIENDA"
+              titlee = "PRODUCTOS"
               break;
             case "/maps":
               titlee = "MAPS E INFORMACIÓN"
