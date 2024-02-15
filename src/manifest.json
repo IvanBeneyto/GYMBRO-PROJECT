@@ -1,0 +1,27 @@
+{
+    "name": "Mi Aplicación",
+    "short_name": "Mi App",
+    "description": "Una increíble aplicación web progresiva",
+    "icons": [
+      {
+        "src": "assets/icon/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icon/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "orientation": "portrait",
+    "scope": "/",
+    "lang": "es",
+    "categories": ["productividad", "educación"]
+  }
+  
+  

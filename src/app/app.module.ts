@@ -15,6 +15,7 @@ import { ComponentsModule } from './components/components.module';
 import { MatPaginatorModule} from '@angular/material/paginator';
 import { MatTableModule} from '@angular/material/table';
 
+
 @NgModule({
   imports: [
     BrowserAnimationsModule,
@@ -26,7 +27,7 @@ import { MatTableModule} from '@angular/material/table';
     AppRoutingModule,
     MatTableModule, 
     MatPaginatorModule
-  ],
+    ],
   declarations: [
     AppComponent,
     AdminLayoutComponent,
